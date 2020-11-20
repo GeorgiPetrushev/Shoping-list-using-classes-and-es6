@@ -41,7 +41,7 @@ class List{
         let deleteButton = new Button('Delete Item','remove','BUTTON'); 
    
         li.addEventListener("click",() => {
-            li.style.backgroundColor = 'orange';
+            li.style.backgroundColor = 'rgb(132, 255, 132,0.25)';
             li.style.borderRadius = '15px';
             li.appendChild(deleteButton.btn);
         });
@@ -77,7 +77,7 @@ textPlaice.show('#shopList');
 x.add('Milk');
 x.add('Banana');
 x.add('Eggs');
-x.add('Bred');
+x.add('Bread');
 x.add('Butter');
 
 addButton.btn.addEventListener("click", function(){   
